@@ -2,7 +2,7 @@
 This is a MATLAB code package related to the following article:
 # Abstract of the Article
 
-# Instructions for Regenerating the Figure 3
+# How to regenerate Figure 3?
 1. Create two empty folders at the same directory as the codes and name them "**Networks**" and "**Data**" respectively. These two folders are used to store trained networks and necessary data that will be used to evaluate the performance.
 2. Open the file `main.m` and execute it.
 3. When 
