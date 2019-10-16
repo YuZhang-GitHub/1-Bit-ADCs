@@ -1,5 +1,5 @@
 # Deep Learning for Massive MIMO with 1-Bit ADCs: When More Antennas Need Fewer Pilots
-This is a MATLAB code package related to the following article: Yu Zhang, Muhammad Alrabeiah, and Ahmed Alkhateeb, “Deep Learning for Massive MIMO with 1-Bit ADCs: When More Antennas Need Fewer Pilots”.
+This is a MATLAB code package related to the following article: Yu Zhang, Muhammad Alrabeiah, and Ahmed Alkhateeb, “Deep Learning for Massive MIMO with 1-Bit ADCs: When More Antennas Need Fewer Pilots,” arXiv e-prints, p. arXiv:1910.06960, Oct 2019.
 # Abstract of the Article
 This paper considers uplink massive MIMO systems with 1-bit analog-to-digital converters (ADCs) and develops a deep-learning based channel estimation framework. In this framework, the prior channel estimation observations and deep neural network models are leveraged to learn the non-trivial mapping from quantized received measurements to channels. For that, we derive the sufficient length and structure of the pilot sequence to guarantee the existence of this mapping function. This leads to the interesting, and _counter-intuitive_, observation that when more antennas are employed by the massive MIMO base station, our proposed deep learning  approach achieves better channel estimation performance, for the same pilot sequence length. Equivalently, for the same channel estimation performance, this means that when more antennas are employed, fewer pilots are required. This observation is also analytically proved for some special channel models. Simulation results confirm our observations and show that more antennas lead to better channel estimation both in terms of the normalized mean squared error and the achievable signal-to-noise ratio per antenna.
 
@@ -16,4 +16,4 @@ If you have any problems with generating the figure, please contact [Yu Zhang](h
 
 # License and Referencing
 This code package is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). If you in any way use this code for research that results in publications, please cite our original article:
-> Y. Zhang, M. Alrabeiah, and A. Alkhateeb, “Deep Learning for Massive MIMO with 1-Bit ADCs: When More Antennas Need Fewer Pilots”.
+> Y. Zhang, M. Alrabeiah, and A. Alkhateeb, “Deep Learning for Massive MIMO with 1-Bit ADCs: When More Antennas Need Fewer Pilots,” arXiv e-prints, p. arXiv:1910.06960, Oct 2019.
