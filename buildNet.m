@@ -14,7 +14,7 @@ switch options.netType
         fc2 = fullyConnectedLayer(8192,'Name','fc2');
         relu2 = reluLayer('Name','relu2');
         drop2 = dropoutLayer(0.02,'Name','drop2');
-        fc3 = fullyConnectedLayer(outputSize, 'Name', 'fc5');
+        fc3 = fullyConnectedLayer(outputSize, 'Name', 'fc3');
         regOutput = nmseReg('regOutput');
 
         layers = [...
