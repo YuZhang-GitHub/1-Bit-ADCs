@@ -11,7 +11,7 @@ This paper considers uplink massive MIMO systems with 1-bit analog-to-digital co
 
 ![Figure3](https://github.com/YuZhang-GitHub/1-Bit-ADCs/blob/master/SNR.png)
 
-If you have any problems with generating the figure, please contact [Yu Zhang](https://sites.google.com/view/yuzhangmatrix).
+If you have any problems with generating the figure, please contact [Yu Zhang](https://www.linkedin.com/in/yu-zhang-391275181/).
 
 # License and Referencing
 This code package is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). If you in any way use this code for research that results in publications, please cite our original article:
