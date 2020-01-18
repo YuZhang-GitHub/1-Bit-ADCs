@@ -1,7 +1,7 @@
 function [dataPrep, options] = oneBitDataPrep(channel, options)
 
-% Note: channel is a 3D array with dimensions (#antenna@BS, #subcarriers, #users)
-%       loc is a 2D matrix with dimensions (#users, 3)
+% Note: channel is a struct with fields train_ch and val_ch,
+%       both of which are 3D array with dimensions (#antenna@BS, #subcarriers, #users)
 
 dataPrep = struct();
 
