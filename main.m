@@ -21,9 +21,9 @@ options.subcarrier = 1;
 options.bandWidth = 0.01; % unit: GHz
 options.SNR_dB = 0; % unit: dB
 options.rawDataFile = ...
-    '.\Raw_Data_BS32_2p4GHz_1Path.mat'; % Path to dataset
-options.netSaveDir = 'Networks\'; % Path to save trained network
-options.varSaveDir = 'Data\'; % Path to save important variables
+    './Raw_Data_BS32_2p4GHz_1Path.mat'; % Path to dataset
+options.netSaveDir = 'Networks/'; % Path to save trained network
+options.varSaveDir = 'Data/'; % Path to save important variables
 
 options.learnRateSch = 100;
 options.maxNumEpochs = 100;
@@ -36,7 +36,7 @@ for i = 1:options.ch_num
 end
 
 %% Generating pilots
-x = load('.\pilot.mat');
+x = load('./pilot.mat');
 options.pilot = x.pilot;
 
 %% Output data
