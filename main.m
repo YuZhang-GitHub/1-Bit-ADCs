@@ -35,9 +35,8 @@ for i = 1:options.ch_num
     options.antDimCodebook(i,:) = [1, options.ch(i), 1]; % setting patterns
 end
 
-%% Generating pilots
-x = load('./pilot.mat');
-options.pilot = x.pilot;
+%% Generating pilots according to Proposition 1
+options.pilot = uniformPilotsGen(options.pilotList);
 
 %% Output data
 R_NMSE = zeros(options.p_num, options.ch_num); % NMSE performance on validation dataset
@@ -73,6 +72,7 @@ for j = 1:options.p_num
         
         options.antDim = options.antDimCodebook(i,:); % setting antenna number
         options.pilotSize = options.pilotList(j);
+        options.pilotIdx = j;
         
         options.learningRate = 1e-4; % initial learning rate
         options.dropFactor = 0.1; % factor for dropping the learning rate
