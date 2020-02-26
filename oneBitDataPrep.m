@@ -11,7 +11,7 @@ val_ch = channel.val_ch;
 
 %% Generating pilot signal x
 disp('Track: generating pilot signal')
-pilotSig = options.pilot(1:options.pilotSize); % column vector
+pilotSig = options.pilot{1, options.pilotIdx}; % column vector
 
 %% Noise power calculation
 Pr_avg = mean(abs(train_ch(:)).^2);
