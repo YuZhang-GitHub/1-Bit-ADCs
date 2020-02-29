@@ -1,6 +1,6 @@
 function net = buildNet(inputSize, outputSize, options)
 %==========================================================================
-% buildNet constucts the neural network
+% buildNet constucts the deep neural network
 %
 %
 %==========================================================================
