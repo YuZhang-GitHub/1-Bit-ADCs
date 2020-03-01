@@ -17,8 +17,8 @@ classdef nmseReg < nnet.layer.RegressionLayer
             %
             % Inputs:
             %         layer - Output layer
-            %         Y     – Predictions made by network
-            %         T     – Training targets
+            %         Y     â€“ Predictions made by network
+            %         T     â€“ Training targets
             %
             % Output:
             %         loss  - Loss between Y and T
@@ -38,8 +38,8 @@ classdef nmseReg < nnet.layer.RegressionLayer
             %
             % Inputs:
             %         layer - Output layer
-            %         Y     – Predictions made by network (size is equal to 1x1xRxN if the output comes from FC layer)
-            %         T     – Training targets
+            %         Y     â€“ Predictions made by network (size is equal to 1x1xRxN if the output comes from FC layer)
+            %         T     â€“ Training targets
             %
             % Output:
             %         dLdY  - Derivative of the loss with respect to the predictions Y        
@@ -49,7 +49,7 @@ classdef nmseReg < nnet.layer.RegressionLayer
             Y_squ = squeeze(Y);
             T_squ = squeeze(T);
             diff = Y_squ - T_squ;
-            normResp = diag( transpose(T_squ)*T_squ );% norm of responses
+            normResp = diag( transpose(T_squ)*T_squ ); % norm of responses
             invNormResp = 1./(N*normResp);
             D = diag(invNormResp);
             dLdY = diff*D;
