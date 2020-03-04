@@ -28,7 +28,7 @@ switch options.netType
             fc3
             regOutput];
         
-        net = layerGraph(layers);        
+        net = layerGraph(layers);
         
 end
         
