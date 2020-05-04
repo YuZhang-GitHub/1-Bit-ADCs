@@ -5,7 +5,6 @@ This paper considers uplink massive MIMO systems with 1-bit analog-to-digital co
 
 # How to regenerate Figure 3 in [this](https://arxiv.org/abs/1910.06960) paper?
 1. Download all the files of this repository.
-
 Update: Many people encountered problems in downloading and using the mat data file. Please use [this](https://drive.google.com/file/d/1CXwReLlqdbiAk3xVxNFEBAq0poaN6CE6/view?usp=sharing) link to download.
 2. Create two empty folders at the same directory as the downloaded codes and name them "**Networks**" and "**Data**" respectively. As the names indicate, "**Networks**" will store the trained neural networks and "**Data**" will store the predicted channels for evaluations.
 3. Run `main.m` in MATLAB.
