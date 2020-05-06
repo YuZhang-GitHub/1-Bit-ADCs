@@ -5,7 +5,7 @@ This paper considers uplink massive MIMO systems with 1-bit analog-to-digital co
 
 # How to regenerate Figure 3 in [this](https://arxiv.org/abs/1910.06960) paper?
 1. Download all the files of this repository.  
-Update: Many people encountered problems in downloading and using **Raw_Data_BS32_2p4GHz_1Path.mat**. Please use [this link](https://drive.google.com/file/d/1CXwReLlqdbiAk3xVxNFEBAq0poaN6CE6/view?usp=sharing) to download the data file.
+Update: Many people encountered and reported problems in downloading and using **Raw_Data_BS32_2p4GHz_1Path.mat**. Please use [this link](https://drive.google.com/file/d/1CXwReLlqdbiAk3xVxNFEBAq0poaN6CE6/view?usp=sharing) to download the data file.
 2. Create two empty folders at the same directory as the downloaded codes and name them "**Networks**" and "**Data**" respectively. As the names indicate, "**Networks**" will store the trained neural networks and "**Data**" will store the predicted channels for evaluations.
 3. Run `main.m` in MATLAB.
 4. When `main.m` finishes, execute `Fig3_Generator.m`, which will give Figure 3 shown below as result.
